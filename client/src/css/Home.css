@@ -1,0 +1,115 @@
+/*************
+Content
+**************/
+main {
+  padding: 50px;
+}
+
+.mission img {
+  min-width: 200px;
+  width: 20%;
+  border-radius: 100%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 1s ease-in-out;
+  transform: rotate(0deg);
+}
+
+.mission img:hover {
+  transform: rotate(360deg);
+}
+
+.mission p {
+  font-size: xx-large;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  max-width: 500px;
+  text-align: center;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*************
+    Project
+**************/
+section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.projects {
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project img {
+  width: 30%;
+  display: inline-block;
+}
+
+.project h2 {
+  display: inline-block;
+}
+
+.description {
+  display: inline-block;
+  width: 25%;
+}
+
+.gradient-border {
+  border-radius: 50px;
+  border: 6px solid transparent;
+  background: conic-gradient(#4FC0FF, #8FE4FF, #4FC0FF, #8FE4FF, #4FC0FF) border-box;
+}
+
+.right {
+  text-align: right;
+}
+
+hr {
+  margin: 3rem auto;
+  width: 75%;
+}
+
+.more {
+  text-align: center;
+  display: inline-block;
+  margin-top: 2rem;
+  background-color: #4FC0FF;
+  padding: 0.75rem;
+  border-radius: 20px;
+}
+
+/*************
+    Skills
+**************/
+#skills {
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 100px 100px;
+  grid-gap: 10px;
+}
+
+.skill {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Home.css.map */

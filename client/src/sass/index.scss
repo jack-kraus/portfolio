@@ -1,0 +1,47 @@
+/*************
+    Overall
+**************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+
+@keyframes Gradient { 
+    0% { background-position: 0% 0% }
+    100% { background-position: 200% 0% }
+}
+
+.gradient {
+    background: linear-gradient(90deg, #4FC0FF, #8FE4FF, #4FC0FF);
+    background-size: 200% 100%;
+    background-clip: text;
+    color: transparent;
+    transition: background-position 2s ease-out;
+}
+
+.gradient:not(:hover) {
+    background-position: 0% 0%;
+}
+
+.gradient:active {
+    color: white;
+}
+
+.gradient:hover {
+    animation: Gradient 1s linear infinite;
+}
+
+h1, a {
+    display: inline-block;
+}
+
+body {
+    background-color: #1C2330;
+}
