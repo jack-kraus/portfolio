@@ -1,5 +1,5 @@
 import { FaCss3Alt, FaGitlab, FaHtml5, FaJava, FaJira, FaJs, FaPython, FaReact, FaSass } from 'react-icons/fa';
-import '../css/Home.css';
+import '../sass/Home.scss';
 import { DiMongodb, DiPostgresql } from 'react-icons/di';
 import { IconSkill } from '../components/Icon';
 import { RiTailwindCssFill } from 'react-icons/ri';

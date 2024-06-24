@@ -1,5 +1,5 @@
 import { BsGithub } from 'react-icons/bs';
-import '../css/Navbar.css';
+import '../sass/Navbar.scss';
 import { FaLinkedin } from 'react-icons/fa';
 
 export default function Navbar() {
