@@ -1,0 +1,66 @@
+/*************
+    Nav
+**************/
+a {
+  color: #dfdfdf;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-size: large;
+}
+a:active {
+  color: #4FC0FF;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:hover:not(.gradient):not(.github) {
+  color: white;
+}
+
+nav {
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  background-color: #050709;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+}
+nav div {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  position: relative;
+}
+nav a:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 4px;
+  color: white;
+}
+
+footer {
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  background-color: #050709;
+  box-shadow: 0 -5px 7px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.icon {
+  width: 1.5rem;
+  filter: brightness(100);
+}
+.icon:hover {
+  color: purple;
+}
+
+/*# sourceMappingURL=Navbar.css.map */

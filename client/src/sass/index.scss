@@ -1,0 +1,81 @@
+/*************
+    Overall
+**************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+}
+
+@keyframes Gradient { 
+    0% { background-position: 0% 0% }
+    100% { background-position: 200% 0% }
+}
+
+.gradient {
+    background: linear-gradient(90deg, #4FC0FF, #8FE4FF, #4FC0FF);
+    background-size: 200% 100%;
+    background-clip: text;
+    color: transparent;
+    transition: background-position 2s ease-out;
+}
+
+.gradient:not(:hover) {
+    background-position: 0% 0%;
+}
+
+.gradient:active {
+    color: white;
+}
+
+.gradient:hover {
+    animation: Gradient 1s linear infinite;
+}
+
+h1, a {
+    display: inline-block;
+}
+
+body {
+    background-color: #1C2330;
+}
+
+/* Re-used */
+
+.gradient:hover {
+    text-decoration: underline;
+}
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon:hover {
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+.github {
+    height: 36px;
+    width: 36px;
+    border-radius: 30px;
+    
+    &:hover{
+        color:hsl(280, 53%, 50%);
+    }
+}
+
+.linkedin {
+    border-radius: 4px;
+    height: 32px;
+    width: 32px;
+    &:hover{
+        color:hsl(200, 53%, 50%) !important;
+    }
+}
