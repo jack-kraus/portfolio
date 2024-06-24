@@ -48,4 +48,38 @@ body {
   background-color: #1C2330;
 }
 
+/* Re-used */
+.gradient:hover {
+  text-decoration: underline;
+}
+
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-icon:hover {
+  background-color: white;
+  box-shadow: 0 0 10px white;
+}
+
+.github {
+  height: 36px;
+  width: 36px;
+  border-radius: 30px;
+}
+.github:hover {
+  color: hsl(280, 53%, 50%);
+}
+
+.linkedin {
+  border-radius: 4px;
+  height: 32px;
+  width: 32px;
+}
+.linkedin:hover {
+  color: hsl(200, 53%, 50%) !important;
+}
+
 /*# sourceMappingURL=index.css.map */
