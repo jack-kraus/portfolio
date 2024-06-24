@@ -1,7 +1,7 @@
 import { FaCss3Alt, FaGitlab, FaHtml5, FaJava, FaJira, FaJs, FaPython, FaReact, FaSass } from 'react-icons/fa';
 import '../css/Home.css';
 import { DiMongodb, DiPostgresql } from 'react-icons/di';
-import Icon, { IconSkill } from '../components/Icon';
+import { IconSkill } from '../components/Icon';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import { SiExpress, SiHandlebarsdotjs, SiJquery, SiKeras, SiNumpy, SiOcaml, SiR, SiTypescript } from 'react-icons/si';
 import { FaC } from 'react-icons/fa6';
