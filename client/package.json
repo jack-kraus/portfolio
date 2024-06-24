@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://jack-kraus.github.io/portfolio/",
   "scripts": {
     "dev": "vite & sass --watch src/sass:src/css",
     "predeploy": "npm run build",
