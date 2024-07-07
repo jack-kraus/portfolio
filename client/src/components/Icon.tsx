@@ -29,6 +29,7 @@ export default function Icon({icon, color1, color2} : IconProps) {
 
 export function IconSkill({icon, color1, color2, text} : IconProps) {
     const id = uuidv4();
+    
     const element = cloneElement(icon, {
         style: { stroke: `url(#${id})`, fill: `url(#${id})` }
     });
