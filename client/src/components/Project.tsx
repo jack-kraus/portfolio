@@ -26,6 +26,8 @@ export default function Project({ title, subtitle, links, objectives, image, rig
                 {objectives.map((item : string, i : number) => <li key={i}>{item}</li>)}
             </ul>}
         </div>
-        <img className="gradient-border tw-h-auto" src={image}/>
+        <div>
+            <img className="gradient-border sm:w-96 max-w-1/3 w-full" src={image}/>
+        </div>
     </div>;
 }

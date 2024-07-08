@@ -17,7 +17,7 @@ function Home() {
           <img className="headshot" src="./images/headshot.jpg"/>
           <p className="mission">My name is Jack Kraus, I'm an aspiring <span className="gradient">Web Developer</span> and <span className="gradient">Software Engineer</span></p>
         </div>
-        <div className="contact tw-text-center tw-gap-2">
+        <div className="contact text-center gap-2">
           <b>Email</b>
           <a href="mailto:jackkraus3856@gmail.com">jackkraus3856@gmail.com</a>
           <b>Phone Number</b>
@@ -32,9 +32,9 @@ function Home() {
           title="Leveler"
           subtitle='A video game review social media app'
           objectives={[
-            "Developed a NextJS site where users can create accounts to review video games found in the IGDB database",
-            "Utilized Supabase to authenticate users and store data in a PostgreSQL database, as well as wrote SQL code to join multiple tables",
-            "Wrote backend API code to communicate with the database and validate requests"
+            "Developed a full stack NextJS site with CRUD functionality where users can create accounts to review video games found in the IGDB database.",
+            "Utilized Supabase to authenticate users and store data in a PostgreSQL database, as well as wrote SQL code to join multiple tables and API routes to access that data.",
+            "Styled various pages with full responsiveness and user feedback and well as well as a user friendly experience with features such as infinite scrolling and filters/sorting"
           ]}
           links={[
             { url: "https://leveler-app.vercel.app", origin: "deployment"}
@@ -72,7 +72,7 @@ function Home() {
       
       <h2 id="skills-header">Skills</h2>
       
-      <section id="skills">
+      <section id="skills" className="justify-center mx-0 sm:mx-24">
         <h3 className="skill-header">Web Development</h3>
         <div className='skill-list'>
           <IconSkill icon={<FaHtml5 size={50}/>} color1="#E54C21" color2="#ff9f73" text="HTML"/>
