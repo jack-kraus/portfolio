@@ -1,6 +1,5 @@
-import { BsGithub } from 'react-icons/bs';
 import '../sass/Navbar.scss';
-import { FaLinkedin } from 'react-icons/fa';
+import SocialLink from './SocialLink';
 
 export default function Navbar() {
     return <nav>
@@ -9,12 +8,8 @@ export default function Navbar() {
             <a href="#projects-header">Projects</a>
             <a href="#skills-header">Skills</a>
             <a href="./jackk_resume_.pdf" target="_blank" className="gradient">Resume</a>
-            <a href="https://github.com/jack-kraus" target="_blank" className='nav-icon github'>
-                <BsGithub size={30}/>
-            </a>
-            <a href="https://www.linkedin.com/in/jack-kraus-78220a2a8/" target="_blank" className='nav-icon linkedin'>
-                <FaLinkedin size={30}/>
-            </a>
+            <SocialLink url="https://github.com/jack-kraus" origin='github'/>
+            <SocialLink url="https://www.linkedin.com/in/jack-kraus-78220a2a8/" origin='linkedin'/>
         </div>
     </nav>;
 }
